@@ -52,8 +52,8 @@
 					<div class="container">
 						<div class="row">
 							<div class="4u 12u$(2)">
-								<?include("menu.php");?>
-								
+								<?include("menu-no-logo.php");?>
+
 									<h2>Decorline</h2>
 									<p>Control solar, control de temperatura ambiente, cartelería, cintas decorativas.</p>
 							</div>
@@ -94,10 +94,11 @@ En estos últimos años sumamos nuevos productos, relacionados con el área de i
 			<section id="three" class="spotlight style3 left">
 				<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
 				<div class="content">
-					<header>
+					<?include("menu.php");?>
+
 						<h2>Interdum felis blandit praesent sed augue</h2>
 						<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
-					</header>
+					
 					<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
 					<ul class="actions">
 						<li><a href="#" class="button">Learn More</a></li>
