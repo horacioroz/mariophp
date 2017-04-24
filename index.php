@@ -78,10 +78,10 @@ En estos últimos años sumamos nuevos productos, relacionados con el área de i
 			<section id="two" class="spotlight style2 right">
 				<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
 				<div class="content">
-					<header>
+										<?include("menu-no-logo.php");?>
 						<h2>Interdum amet non magna accumsan</h2>
 						<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
-					</header>
+
 					<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
 					<ul class="actions">
 						<li><a href="#" class="button">Learn More</a></li>
@@ -94,7 +94,7 @@ En estos últimos años sumamos nuevos productos, relacionados con el área de i
 			<section id="three" class="spotlight style3 left">
 				<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
 				<div class="content">
-					<?include("menu.php");?>
+					<?include("menu-no-logo.php");?>
 
 						<h2>Interdum felis blandit praesent sed augue</h2>
 						<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
@@ -110,6 +110,7 @@ En estos últimos años sumamos nuevos productos, relacionados con el área de i
 		<!-- Four -->
 			<section id="four" class="wrapper style1 special fade-up">
 				<div class="container">
+					<?include("menu-no-logo.php");?>
 					<header class="major">
 						<h2>Accumsan sed tempus adipiscing blandit</h2>
 						<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
