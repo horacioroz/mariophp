@@ -5,31 +5,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Decorline</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrollex.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
+
+	<?php include 'head.php';?>
+
 	<body class="landing">
 
 		<!-- Header -->
-			<?include("menu.php");?>
+			<?php include 'menu.php';?>
 
 		<!-- Banner -->
 			<section id="banner">
@@ -38,9 +20,27 @@
 						<h2>L&aacute;minas de Control Solar</h2>
 						<p>Privacidad, Seguridad y Control de Temperatura.</p>
 					</header>
-					<span class="image"><img src="images/bmw-para circulo.jpg" alt="" /></span>
-					<span class="image"><img src="images/Edificio sol inicio 320x320.jpg" alt="" /></span>
-					<span class="image"><img src="images/audi q2 interior1_Fotor.jpg" alt="" /></span>
+
+					<figure class="effect-julia">
+						<figcaption class="effect-julia-caption">
+						<a href=""<?=$link_address_02?>""><span class="image"><img src="images/bmw-para circulo.jpg" alt="" /></span>		
+								<p>Automotor</p></a>		
+						</figcaption>
+					</figure>
+
+					<figure class="effect-julia">
+						<figcaption class="effect-julia-caption">
+							<a href="<?=$link_address_03?>"><span class="image"><img src="images/Edificio sol inicio 320x320.jpg" alt="" /></span>
+							<p>Arquitectura</p></a>	
+						</figcaption>			
+					</figure>
+
+					<figure class="effect-julia">
+						<figcaption class="effect-julia-caption">
+							<a href="<?=$link_address_04?>"><span class="image"><img src="images/audi q2 interior1_Fotor.jpg" alt="" /></span><p>Otros Productos</p></a>
+						</figcaption>			
+					</figure>
+									
 				</div>
 				<a href="#one" class="goto-next scrolly">Next</a>
 			</section>
@@ -59,14 +59,15 @@
 							</div>
 							<div class="4u 12u$(2)">
 								<p>Decorline es una empresa que se dedica, desde 1986 a comercializar y distribuir accesorios del rubro automotor.
-En 1990 incorporamos la fabricacion de cintas decorativas autoadhesivas. Este producto sirve para la decoración de autos,  embarcaciones, muebles, stands etc.En 1995  comenzamos a importar  laminas de control solar y seguridad para uso vehicular y arquitectonico.
-</p>
+								En 1990 incorporamos la fabricacion de cintas decorativas autoadhesivas. Este producto sirve para la decoración de autos,  embarcaciones, muebles, stands etc.En 1995  comenzamos a importar  laminas de control solar y seguridad para uso vehicular y arquitectonico.
+								</p>
 							</div>
 							<div class="4u$ 12u$(2)">
 								<p>
-Estos productos siempre fueron de origen americano. Y son fabricados por °OPTIMUM COATING TECHNOLOGIES° fabricantes de laminas de control solar
- y seguridad.
-En estos últimos años sumamos nuevos productos, relacionados con el área de insumos para cateleria grafica autoadhesiva, papel posicionador y cintas doble faz espumadas.</p>
+								Estos productos siempre fueron de origen americano. Y son fabricados por °OPTIMUM COATING TECHNOLOGIES° fabricantes de laminas de control solar
+								 y seguridad.
+								En estos últimos años sumamos nuevos productos, relacionados con el área de insumos para cateleria grafica autoadhesiva, papel posicionador y cintas doble faz espumadas.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -76,15 +77,17 @@ En estos últimos años sumamos nuevos productos, relacionados con el área de i
 
 		<!-- Two -->
 			<section id="two" class="spotlight style2 right">
-				<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+				<span class="image fit main"><img src="images/car-02.jpg" alt="" /></span>
+				<!-- pic03 -->
 				<div class="content">
 										<?include("menu-no-logo.php");?>
-						<h2>Interdum amet non magna accumsan</h2>
-						<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+						<h2>Automotor</h2>
+						<p>Control t&eacute;rmico, seguridad, protecci&oacute;n UV, ahorro en combustible.</p>
 
-					<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<p>Las l&aacute;minas de control solar, aplicadas en los cristales de su veh&iacute;culo, permiten experiencias sencillas como no quemarse las manos con el volante de un auto expuesto al sol o notar mayor rendimiento del aire acondicionado. 
+						</p>
 					<ul class="actions">
-						<li><a href="#" class="button">Learn More</a></li>
+						<li><a href="automotor.php" class="button">Learn More</a></li>
 					</ul>
 				</div>
 				<a href="#three" class="goto-next scrolly">Next</a>
@@ -92,16 +95,21 @@ En estos últimos años sumamos nuevos productos, relacionados con el área de i
 
 		<!-- Three -->
 			<section id="three" class="spotlight style3 left">
-				<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+
+					<span class="image fit main">
+						<img src="images/scott-webb-193068.jpg" alt="" />
+					</span>
+				
 				<div class="content">
 					<?include("menu-no-logo.php");?>
 
-						<h2>Interdum felis blandit praesent sed augue</h2>
-						<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+						<h2>Arquitectura</h2>
+						<p>Confort, privacidad, habitabilidad, a una fina l&aacute;mina de distancia.</p>
 					
-					<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<p>Las l&aacute;minas de control solar permiten disminuir el rango t&eacute;mico de los ambientes sin necesidad de oscurecerlos con elementos opacos que interfieran visualmente, con alta eficiencia brindan soluciones a un costo accesible.
+						</p>
 					<ul class="actions">
-						<li><a href="#" class="button">Learn More</a></li>
+						<li><a href="arquitectura.php" class="button">Learn More</a></li>
 					</ul>
 				</div>
 				<a href="#four" class="goto-next scrolly">Next</a>
@@ -161,32 +169,24 @@ En estos últimos años sumamos nuevos productos, relacionados con el área de i
 			<section id="five" class="wrapper style2 special fade">
 				<div class="container">
 					<header>
-						<h2>Magna faucibus lorem diam</h2>
-						<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+						<h2>Actualizarse</h2>
+						<p>Reciba informaci&oacute;n actualizada sobre nuestros productos y lanzamientos</p>
 					</header>
 					<form method="post" action="#" class="container 50%">
 						<div class="row uniform 50%">
-							<div class="8u 12u$(3)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-							<div class="4u$ 12u$(3)"><input type="submit" value="Get Started" class="fit special" /></div>
+							<div class="8u 12u$(3)"><input type="email" name="email" id="email" placeholder="Su Email" /></div>
+							<div class="4u$ 12u$(3)"><input type="submit" value="An&oacute;tese;" class="fit special" /></div>
 						</div>
 					</form>
 				</div>
 			</section>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
+			<?include ("footer.php");?>
 
+<!-- 			<script type="text/javascript" >
+			new Cocoen(document.querySelector('.cocoen'));
+			</script>
+ -->
 	</body>
 </html>

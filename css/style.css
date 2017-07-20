@@ -35,18 +35,18 @@
 	}
 
 	a {
-		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		/*-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-o-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #e44c65;
+		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;*/
+		/*border-bottom: dotted 1px;*/
+		/*color: #e44c65;*/
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			/*color: #e44c65 !important;*/
 			border-bottom-color: transparent;
 		}
 
@@ -117,7 +117,7 @@
 	hr {
 		border: 0;
 		border-bottom: solid 1px rgba(255, 255, 255, 0.3);
-		margin: 3em 0;
+		margin: 3.5em 0;
 	}
 
 		hr.major {
@@ -287,7 +287,7 @@
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
-		line-height: 1.75em;
+		line-height: 0.75em;/*original 1.75*/
 	}
 
 	header h3 + p {
@@ -305,7 +305,7 @@
 	}
 
 	header.major {
-		margin: 0 0 4em 0;
+		margin: 0 0 3em 0;/*original 0 0 4em 0*/
 		position: relative;
 		text-align: center;
 	}
@@ -340,6 +340,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="phone"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -366,6 +367,7 @@
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+		input[type="phone"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -374,6 +376,7 @@
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="phone"]:focus,
 		select:focus,
 		textarea:focus {
 			border-color: #e44c65;
@@ -415,6 +418,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="phone"],
 	select {
 		height: 3em;
 	}
@@ -510,7 +514,7 @@
 		opacity: 1.0;
 	}
 
-	:-moz-placeholder {
+	::-moz-placeholder {
 		color: rgba(255, 255, 255, 0.5) !important;
 		opacity: 1.0;
 	}
@@ -1281,6 +1285,7 @@
 			.wrapper.style2 input[type="text"]:focus,
 			.wrapper.style2 input[type="password"]:focus,
 			.wrapper.style2 input[type="email"]:focus,
+			.wrapper.style2 input[type="phone"]:focus,
 			.wrapper.style2 select:focus,
 			.wrapper.style2 textarea:focus {
 				border-color: rgba(255, 255, 255, 0.5);
@@ -1313,7 +1318,8 @@
 				color: #e44c65 !important;
 			}
 
-				.wrapper.style2 input[type="submit"].special:hover, .wrapper.style2 input[type="submit"].special:active,
+				.wrapper.style2 input[type="submit"].special:hover, 
+				.wrapper.style2 input[type="submit"].special:active,
 				.wrapper.style2 input[type="reset"].special:hover,
 				.wrapper.style2 input[type="reset"].special:active,
 				.wrapper.style2 input[type="button"].special:hover,
@@ -1452,14 +1458,14 @@
 /* Header */
 
 	#skel-layers-wrapper {
-		padding-top: 3.5em;
+		padding-top: 3.7em;
 	}
 
 	#header {
 		background: rgba(39, 40, 51, 0.965);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
-		height: 3.5em;
+		height: 3.7em;/*original 3.5*/
 		left: 0;
 		line-height: 3.5em;
 		position: fixed;
@@ -1697,10 +1703,184 @@
 					color: inherit;
 				}
 #logo img{
-	height: 4.4em;
-	margin: 1em 0 0 1em;
+	height: 3.4em;
+	margin: 0.2em 0 0 0.5em;
+}
+#logo-sidebar img{
+	height: 3.4em;
+	margin: 0.2em 0 0 0.2em;
 }
 
 #seccion{
 	margin: -2em 0 0 0 ;
 }
+.form-title{
+	text-align: center;
+}
+#reflectivas #privacidad #seguridad #nanoceramica {
+	margin-top: 1.4	;
+}
+.error{
+	color:red;
+	
+}
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+figure.effect-julia {
+	background: #2f3238;
+	display: inline-block;
+	width: 30%;
+	background: none;
+
+}
+
+figure.effect-julia img {
+	max-width: none;
+	/*height: 400px;*/
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	transition: opacity 1s, transform 1s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-julia figcaption {
+	text-align: left;
+	max-width: 25%;
+	position: relative;
+
+}
+
+figure.effect-julia h2 {
+	position: relative;
+	padding: 0.5em 0;
+	color:white;
+}
+
+figure.effect-julia p {
+	display: inline-block;
+	margin: 0 0 0.25em;
+	padding: 0.4em 1em;
+	/*background: #4D5056;*/
+	color: white;
+	text-transform: none;
+	font-weight: 400;
+	font-size: 3em;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-80em,0,0);
+	transform: translate3d(-80em,0,0);
+	width: 10em;
+}
+
+figure.effect-julia p:first-child {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure.effect-julia p:nth-of-type(2) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-julia p:nth-of-type(3) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-julia:hover p:first-child {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+figure.effect-julia:hover p:nth-of-type(2) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-julia:hover p:nth-of-type(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-julia:hover img {
+	opacity: 0.4;
+	-webkit-transform: scale3d(1.1,1.1,1);
+	transform: scale3d(1.1,1.1,1);
+}
+
+figure.effect-julia:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-julia a{
+	border-bottom: none;
+	color:white;
+}
+/*--------------------------------------------------
+Herramientas
+--------------------------------------------------*/
+.tool_content{
+	border: 1px solid #ddd; /* Gray border */
+    border-radius: 5%;  /* Rounded border */
+    padding: 0.2%; /* Some padding */
+    width:10em; /* Set a small width */
+    min-height: 10em;
+    /*height: 10%;*/
+    float: left;
+    margin:1%;
+	background-color: black;
+	/*text-align: center;*/
+
+}
+.tool{
+	position: relative;
+	/*vertical-align: middle;*/
+	/*text-align: center;*/
+	margin: : 0.5%;
+	width: 10em;
+	height: 10em;
+	float: left;
+	
+}
+.tool img{
+	width: 9.6em;
+	height: 10em;
+	border-radius: 7%;
+	text-align: center;
+	margin-left: -0.4em;
+}
+
+/* Add a hover effect (blue shadow) */
+.tool img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.tool a{
+	width: 10em;
+	height: 10em;
+	text-decoration: none;
+	border-bottom: none;;
+}
+.tool-name{
+	color:white;
+	font-family:arial;
+	font-size: 0.7em;
+	margin-top: -1em;
+	font-weight: bold;
+}
+
+#content{
+	text-align: center;
+	padding-bottom: 0.2em;
+	display: inline-block; 
+
+
+}
+#tools_photo{
+	margin: 5em 0;
+}
+	
+
