@@ -32,7 +32,7 @@ $link_address_04 = 'otros-productos.php';
 											<li><a href="<?=$link_address_04?>#herramientas">Herramientas</a></li>
 											<li><a href="<?=$link_address_04?>#decorativas">Cintas Decorativas</a></li>
 											<li><a href="<?=$link_address_04?>#doble_">Cintas Doble Faz</a></li>
-											<li><a href="<?=$link_address_04?>#doble_">Resinados</a></li>
+											<li><a href="<?=$link_address_04?>#resinados">Resinados</a></li>
 										</ul>
 									</li>
 								</ul>

@@ -32,15 +32,15 @@
 									</section>
 									<hr />
 									<section>
-										<a href="herramientas.php" class="image fit"><img src="images/Cinta Doble faz 01.jpg" alt="" /></a>
+										<a href="herramientas.php" class="image fit"><img src="images/cintas_decorativas.jpg" alt="" /></a>
 										<footer>
 											<!-- <ul class="actions">
 												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
 											</ul> -->
 									</section>
-									<hr />
+									<hr id="herramientas"/>
 									<section>
-										<h3>Herramientas</h3>
+										<h3 >Herramientas</h3>
 									<p>Son los colocadores profesionales lo que m&aacute;s aprecian nuestros productos. Ellos son los que requieren tener herramientas adecuadas para su trabajo. No tenerlas puede llevar a desperdicio innecesario de material y lo que es peor, a la p&eacute;rdida de clientes.</p>
 										<!-- <a href="herramientas.php" class="image fit"><img src="images/Mario herramientas MODIF.jpg" alt="" /></a>
 										<footer>
@@ -50,16 +50,24 @@
 									</section>
 									<hr />
 									<section>
-										</footer>
-										<h3>Amet Lorem Tempus</h3>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+										<a href="herramientas.php" class="image fit"><img src="images/Cinta Doble faz 01.jpg" alt="" /></a>
 										<footer>
-											<ul class="actions">
-												<li><a href="#" class="button">Learn More</a></li>
-											</ul>
-										</footer>
+											<!-- <ul class="actions">
+												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
+											</ul> -->
 									</section>
 								</section>
+								<hr id="resinados"/>
+									<section>
+										<h3 >Resinados</h3>
+									<p>Son los colocadores profesionales lo que m&aacute;s aprecian nuestros productos. Ellos son los que requieren tener herramientas adecuadas para su trabajo. No tenerlas puede llevar a desperdicio innecesario de material y lo que es peor, a la p&eacute;rdida de clientes.</p>
+										<!-- <a href="herramientas.php" class="image fit"><img src="images/Mario herramientas MODIF.jpg" alt="" /></a>
+										<footer>
+											<ul class="actions">
+												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
+											</ul> -->
+									</section>
+									<hr />
 
 						</div>
 						<div class="8u$ 12u$(2) important(2)">
@@ -76,10 +84,7 @@
 												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
 											</ul>
 										</footer>
-									</section>	
-									<!-- <h3>Herramientas</h3>
-									<p>Son los colocadores profesionales lo que m&aacute;s aprecian nuestros productos. Ellos son los que requieren tener herramientas adecuadas para su trabajo. No tenerlas puede llevar a desperdicio innecesario de material y lo que es peor, a la p&eacute;rdida de clientes.</p>
-									<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique.</p> -->
+
 									<h3>Cintas Doble Faz</h3>
 									<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
 
@@ -87,9 +92,14 @@
 										<li>Faucibus orci lobortis ac adipiscing integer.</li>
 										<li>Col accumsan arcu mi aliquet placerat.</li>
 										<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-										<li>Blandit massa non blandit tempor interdum.</li>
-										<li>Lacinia mattis arcu nascetur lobortis.</li>
 									</ul>
+									<a href="herramientas.php" id="tools_photo" class="image fit"><img src="images/herramientas catalogo achicado.jpg" alt="" /></a>
+<!-- 										<footer>
+											<ul class="actions">
+												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
+											</ul>
+										</footer>
+ -->
 								</section>
 
 						</div>
