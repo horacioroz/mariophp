@@ -30,10 +30,11 @@
 										Desenrollado sencillo y fácil liberación, ofrece una excelente adhesión para la transferencia y la instalación de vin&iacute;licos.</p>
 										
 									</section>
-									<hr />
 									<section>
+									<hr  id="decorativas" />
+									
 										<a href="herramientas.php" class="image fit"><img src="images/cintas_decorativas.jpg" alt="" /></a>
-										<footer>
+										<!-- <footer> -->
 											<!-- <ul class="actions">
 												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
 											</ul> -->
@@ -42,30 +43,18 @@
 									<section>
 										<h3 >Herramientas</h3>
 									<p>Son los colocadores profesionales lo que m&aacute;s aprecian nuestros productos. Ellos son los que requieren tener herramientas adecuadas para su trabajo. No tenerlas puede llevar a desperdicio innecesario de material y lo que es peor, a la p&eacute;rdida de clientes.</p>
-										<!-- <a href="herramientas.php" class="image fit"><img src="images/Mario herramientas MODIF.jpg" alt="" /></a>
-										<footer>
-											<ul class="actions">
-												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
-											</ul> -->
 									</section>
 									<hr />
 									<section>
 										<a href="herramientas.php" class="image fit"><img src="images/Cinta Doble faz 01.jpg" alt="" /></a>
-										<footer>
-											<!-- <ul class="actions">
-												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
-											</ul> -->
+										
 									</section>
 								</section>
 								<hr id="resinados"/>
-									<section>
+									<!-- <section> -->
 										<h3 >Resinados</h3>
 									<p>Son los colocadores profesionales lo que m&aacute;s aprecian nuestros productos. Ellos son los que requieren tener herramientas adecuadas para su trabajo. No tenerlas puede llevar a desperdicio innecesario de material y lo que es peor, a la p&eacute;rdida de clientes.</p>
-										<!-- <a href="herramientas.php" class="image fit"><img src="images/Mario herramientas MODIF.jpg" alt="" /></a>
-										<footer>
-											<ul class="actions">
-												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
-											</ul> -->
+										
 									</section>
 									<hr />
 
@@ -79,8 +68,8 @@
 									<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
 									<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
 									<a href="herramientas.php" id="tools_photo" class="image fit"><img src="images/herramientas catalogo achicado.jpg" alt="" /></a>
-										<footer>
-											<ul class="actions">
+										<footer id="catalogo">
+											<ul  class="actions">
 												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
 											</ul>
 										</footer>
@@ -93,13 +82,8 @@
 										<li>Col accumsan arcu mi aliquet placerat.</li>
 										<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
 									</ul>
-									<a href="herramientas.php" id="tools_photo" class="image fit"><img src="images/herramientas catalogo achicado.jpg" alt="" /></a>
-<!-- 										<footer>
-											<ul class="actions">
-												<li><a href="herramientas.php" class="button">Vea el Cat&aacute;logo</a></li>
-											</ul>
-										</footer>
- -->
+									<img id="resinas_photo" fclass="image fit" src="images/Resinas 031.jpg" alt="" /></a>
+
 								</section>
 
 						</div>

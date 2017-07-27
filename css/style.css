@@ -46,7 +46,7 @@
 	}
 
 		a:hover {
-			/*color: #e44c65 !important;*/
+			color: #e44c65 !important;
 			border-bottom-color: transparent;
 		}
 
@@ -701,6 +701,7 @@
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		text-align: left;/* Agregado */
 	}
 
 		ul li {
@@ -1702,6 +1703,11 @@
 				#footer .copyright li a {
 					color: inherit;
 				}
+
+/*--------------------------*/				
+/* Agregado a partir de acá */
+/*--------------------------*/
+
 #logo img{
 	height: 3.4em;
 	margin: 0.2em 0 0 0.5em;
@@ -1820,9 +1826,11 @@ figure.effect-julia a{
 	border-bottom: none;
 	color:white;
 }
-/*--------------------------------------------------
-Herramientas
---------------------------------------------------*/
+
+/*--------------------------------------------------*/
+/*              Herramientas                        */
+/*--------------------------------------------------*/
+
 .tool_content{
 	border: 1px solid #ddd; /* Gray border */
     border-radius: 5%;  /* Rounded border */
@@ -1881,7 +1889,19 @@ Herramientas
 
 }
 #tools_photo{
-	margin: 5em 0;
+	margin: 5em 0 3em 0;
 }
-	
+
+.actions{
+	text-align: center;
+}
+.icons{
+	text-align: center;
+}
+#catalogo{
+	margin-bottom: 4em;
+}
+#resinas_photo{
+	margin: 6em 0 3em 0;
+}
 
