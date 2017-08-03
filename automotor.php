@@ -51,8 +51,9 @@
 							<!-- Content -->
 								<section id="content">
 									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<hr id="reflectivas"/>
-									<!-- <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a> -->
+									<hr id="control_solar"/>
+									
+
 									<h3 >L&iacute;nea Premium high quality</h3>
 									<ul>
 										<li>Colores : Charcoal grey. Cobalto grey.</li>
@@ -63,11 +64,13 @@
 										<li>Pel&iacute;culas con 5años de garant&iacute;a.</li>
 										<li>Medida del rollo: 1.525m x 30.5 m.</li>
 									</ul>
-									<hr id="privacidad"/>
-									<!-- <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a> -->
+
+									<!--                Seguridad  auto                  -->
+
+									<hr id="seguridad_auto"/>
 									<h3 >L&iacute;minas Premium high quality de seguridad automotriz</h3>
 
-DATOS TECNICOS: según el micronaje usado aumentan la protección,frente a actos de vandalismo,soportan golpes sin estallar los vidrios.Y en caso de ser peliculas de seguridad con color bajan la tempratura ambiental entre 5 y 7 grados,oscuren el habitáculo,protejen de los rayos UV y favorecen la visibilidad  por bajar el grado de reflejo.
+										DATOS TECNICOS: según el micronaje usado aumentan la protección,frente a actos de vandalismo,soportan golpes sin estallar los vidrios.Y en caso de ser peliculas de seguridad con color bajan la tempratura ambiental entre 5 y 7 grados,oscuren el habitáculo,protejen de los rayos UV y favorecen la visibilidad  por bajar el grado de reflejo.
 
 
 									<ul>
@@ -79,6 +82,30 @@ DATOS TECNICOS: según el micronaje usado aumentan la protección,frente a actos
 										<li>Pel&iacute;culas con 5años de garant&iacute;a.</li>
 										<li>Medida del rollo: 1.525m x 30.5 m.</li>
 									</ul>
+
+									<!--                Nanocerámica  auto                  -->
+
+									<hr id="nanoceramica_auto"/>
+
+									<h3 >L&iacute;minas Premium de control solar nanoceramicas</h3>
+
+										DATOS TECNICOS: Las películas nanoceramicas tienen como característica sustancial de no permitir en un 90% el pasaje de radiación infraroja, que es la que  causa calor.
+										Brinda un confort  al que no estábamos acostumbrados a observar con el resto de las películas.
+										Disminuye el reflejo,rechaza la luz UV EN CASI UN 100%.
+										Esta perdida de calor reduce el gasto de combustible ya que el compresor del aire acondicionado se conecta menos tiempo.
+										Este material se aconseja colocarlo en la totalidad de los vidrios del automóvil, al ser casi transparente es colocado en el parabrisas sin bajar la visibilidad del conductor y asi poder cumplir con su función..
+
+
+									<ul>
+										<li>Color : Azul 75%. - Grosor: 50, 100, 200, 400 micrones.</li>
+										<li>Bajan la temperatura del habit&aacute;culo aproximadamente 15 a 20 grados.</li>
+										<li>Filtran 90% de los rayos UV.</li>
+										<li>Dismuyen el resplandor del sol.</li>
+										<li>Pel&iacute;culas con 5años de garant&iacute;a.</li>
+										<li>Medida del rollo: 1.525m x 30.5 m.</li>
+										<li>Durabilidad: 5 a&ntilde;os</li>
+									</ul>
+
 								</section>
 
 						</div>

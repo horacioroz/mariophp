@@ -1,3 +1,4 @@
 misc
 *.psd
 .DS_Store
+.xlsx
